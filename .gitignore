@@ -1,0 +1,13 @@
+node_modules/**/*
+
+
+*.iml
+.idea
+.expo
+
+build
+
+
+yarn-error.log
+
+

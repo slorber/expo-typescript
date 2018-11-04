@@ -1,0 +1,7 @@
+
+# Share basic onfig accros editors
+# See http://editorconfig.org/
+
+[**.{js,jsx,ts,tsx,json}]
+indent_style = space
+indent_size = 2

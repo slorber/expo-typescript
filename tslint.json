@@ -1,0 +1,16 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "rules": {
+    "missing-jsdoc": false,
+    "no-unused-variable": [true, { "ignore-pattern": "^_" }],
+    "newline-before-return": false,
+    "no-return-await": true,
+    "no-unnecessary-local-variable": true,
+    "object-literal-sort-keys": false,
+    "interface-name": false,
+    "no-console": false,
+    "no-empty": false,
+    "ordered-imports": false,
+    "member-access": false
+  }
+}
