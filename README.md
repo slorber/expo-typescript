@@ -1,5 +1,15 @@
 # expo-typescript
 
-WIP - Attempt to make Expo 31 + Babel7 + Typescript work together
+Just a sample hello-world Expo project with:
 
-It seems to work fine except for Jest
+- Expo SDK >= 31
+- Babel 7
+- Typescript
+- Jest
+- ./src root
+- Support for `.android.tsx` and `.ios.tsx`
+- Predefined `tsconfig.json` and `tslint.json`
+
+Please don't hesitate to contribute or report anything that could be improved, as I'm a TS newbie I probably could have done something wrong.
+
+
