@@ -3,7 +3,9 @@
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
-    "start": "expo start",
+    "start": "concurrently \"yarn run start:expo\" \"yarn run start:typecheck\"",
+    "start:expo": "expo start",
+    "start:typecheck": "tsc --noEmit --watch",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "eject": "expo eject",
@@ -32,6 +34,7 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-preset-expo": "^5.0.0",
+    "concurrently": "^4.0.1",
     "jest-expo": "^31.0.0",
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.15.0",

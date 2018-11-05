@@ -1,8 +1,12 @@
 import * as React from "react";
-import {View, Text, Button} from 'react-native';
+import { Button, NativeSyntheticEvent, NativeTouchEvent } from 'react-native'
 
+export interface ButtonProps {
+  title: string
+  onPress: (ev: NativeSyntheticEvent<NativeTouchEvent>) => void
+}
 
-const AppButton = ({title, onPress}) => (
+const AppButton = ({title, onPress}: ButtonProps) => (
   <Button
     title={title + " (iOS)"}
     onPress={onPress}

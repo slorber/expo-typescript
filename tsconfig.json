@@ -15,6 +15,7 @@
     // Import non-ES modules as default imports.
     "esModuleInterop": true,
 
+    "jsx": "react-native",
     "sourceMap": true,
     "rootDir": "src",
     "baseUrl": "./src",
@@ -30,10 +31,25 @@
     "strictFunctionTypes": true,
     "noFallthroughCasesInSwitch": true,
     "strictNullChecks": true,
-    "declaration": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "lib": [ "es6" ],
+    "paths": {
+      "*": ["*", "*.ios", "*.android"]
+    }
   },
+  "filesGlob": [
+    "typings/index.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "node_modules/typescript/lib/lib.es6.d.ts"
+  ],
   "include": ["src/**/*"],
+  "exclude":[
+    "build",
+    "node_modules",
+    "jest.config.js",
+    "src/App.js"
+  ],
   "types": [
     "react",
     "react-native"
