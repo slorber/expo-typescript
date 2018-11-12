@@ -54,7 +54,7 @@ exports[`Main snapshot renders 1`] = `
           ]
         }
       >
-        increment (iOS)
+        increment (Android)
       </Text>
     </View>
   </View>
