@@ -14,3 +14,7 @@ Just a sample hello-world Expo project with:
 Please don't hesitate to contribute or report anything that could be improved, as I'm a TS newbie I probably could have done something wrong.
 
 
+# Hire a freelance expert
+
+Looking for a React/ReactNative freelance expert with more than 5 years production experience?
+Contact me from my [website](https://sebastienlorber.com/) or with [Twitter](https://twitter.com/sebastienlorber).
